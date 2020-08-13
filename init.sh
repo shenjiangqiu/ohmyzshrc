@@ -12,3 +12,9 @@ cd autojump
 ./install.py
 cd ..
 rm -rf autojump
+
+cat ~/.zshrc > ~/.zshrc.tmp
+echo 'PATH=$PATH:$HOME/.local/bin/' > ~/.zshrc
+cat ~/.zshrc.tmp >> ~/.zshrc
+rm -rf ~/.zshrc.tmp
+
