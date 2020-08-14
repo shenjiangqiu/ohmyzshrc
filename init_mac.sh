@@ -14,6 +14,6 @@ cd ..
 rm -rf autojump
 
 cat ~/.zshrc > ~/.zshrc.tmp
-echo 'PATH=$PATH:$HOME/.local/bin/' > ~/.zshrc
+echo 'PATH=$PATH:$HOME/Library/Python/3.8/bin' > ~/.zshrc
 cat ~/.zshrc.tmp >> ~/.zshrc
 rm -rf ~/.zshrc.tmp
